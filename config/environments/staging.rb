@@ -1,4 +1,4 @@
-Jamesandchristina::Application.configure do
+Rsvp::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
   config.eager_load = true
@@ -64,7 +64,7 @@ Jamesandchristina::Application.configure do
   config.active_support.deprecation = :notify
 
   config.action_mailer.delivery_method = :sendmail
-  config.action_mailer.default_url_options = { :host => 'jamesandchristina.herokuapp.com' }
+  config.action_mailer.default_url_options = { :host => 'Rsvp.herokuapp.com' }
 
   config.assets.prefix = ''
 end

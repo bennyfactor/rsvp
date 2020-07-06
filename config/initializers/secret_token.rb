@@ -5,4 +5,4 @@
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
 
-Jamesandchristina::Application.config.secret_token = ENV['SECRET_TOKEN']
+Rsvp::Application.config.secret_token = ENV['SECRET_TOKEN']

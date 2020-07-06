@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Jamesandchristina::Application.load_tasks
+Rsvp::Application.load_tasks
