@@ -234,3 +234,9 @@ DEPENDENCIES
   sass-rails
   sqlite3
   uglifier (>= 1.0.3)
+
+RUBY VERSION
+   ruby 2.2.10p489
+
+BUNDLED WITH
+   1.17.3
