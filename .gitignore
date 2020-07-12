@@ -20,3 +20,6 @@ pickle-email-*.html
 .env
 /public/assets/
 .byebug_history
+
+# Ignore application configuration
+/config/application.yml

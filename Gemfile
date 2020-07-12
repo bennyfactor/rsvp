@@ -61,3 +61,7 @@ gem 'capistrano'
 gem 'devise'
 
 gem 'mandrill-api'
+
+# Use figaro to handle env variables
+gem 'figaro'
+
