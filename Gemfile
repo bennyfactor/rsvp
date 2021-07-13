@@ -14,7 +14,7 @@ gem 'rails_admin'
 gem 'rabl'
 gem 'dotenv-rails', :groups => [:development, :test, :production]
 gem 'json', '1.8.6'
-gem 'pg'
+gem 'pg', '<1'
 
 
 # Gems used only for assets and not required
@@ -42,7 +42,6 @@ end
 
 group :production do
   gem 'rails_12factor'
-  gem 'pg'
 end
 
 gem 'jquery-rails'
