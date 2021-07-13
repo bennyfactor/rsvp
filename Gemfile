@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 
 # Run `gem install mailcatcher` (do not add to Gemfile) to locally test mailers.
 
-gem 'rails', '4.2.3'
+gem 'rails', '4.2.11.3'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -31,7 +31,7 @@ group :development do
 end
 
 group :development, :production do
-  gem 'mysql2', '~>0.3.20'
+  # gem 'mysql2', '~>0.3.20'
 end
 
 group :test, :development do
