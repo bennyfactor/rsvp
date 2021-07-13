@@ -224,7 +224,7 @@ DEPENDENCIES
   figaro
   haml
   jquery-rails
-  json (= 1.8.6)
+  json (< 2)
   mandrill-api
   pg (< 1)
   rabl
