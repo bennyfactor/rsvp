@@ -60,7 +60,7 @@ gem 'roo', require: false
 # Deploy with Capistrano
 gem 'capistrano'
 
-gem 'devise'
+gem 'devise', git: 'https://github.com/plataformatec/devise' , branch: '3-stable'
 
 gem 'mandrill-api'
 
