@@ -14,6 +14,8 @@ gem 'rails_admin'
 gem 'rabl'
 gem 'dotenv-rails', :groups => [:development, :test, :production]
 gem 'json', '1.8.6'
+gem 'pg'
+
 
 # Gems used only for assets and not required
 # in production environments by default.
