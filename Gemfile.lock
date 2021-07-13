@@ -109,6 +109,7 @@ GEM
     mini_portile2 (2.0.0)
     minitest (5.14.4)
     multipart-post (2.0.0)
+    mysql2 (0.4.10)
     nested_form (0.3.2)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
@@ -226,6 +227,7 @@ DEPENDENCIES
   jquery-rails
   json (< 2)
   mandrill-api
+  mysql2 (~> 0.4.0)
   pg (< 1)
   rabl
   rails (= 4.2.11.3)

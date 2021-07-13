@@ -33,7 +33,7 @@ group :development do
 end
 
 group :development, :production do
-  # gem 'mysql2', '~>0.3.20'
+  gem 'mysql2', '~> 0.4.0'
 end
 
 group :test, :development do
