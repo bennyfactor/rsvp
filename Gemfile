@@ -1,4 +1,4 @@
-ruby '2.2.10'
+ruby '2.5.7'
 source 'https://rubygems.org'
 
 # Run `gem install mailcatcher` (do not add to Gemfile) to locally test mailers.
@@ -13,6 +13,7 @@ gem 'feedjira'
 gem 'rails_admin'
 gem 'rabl'
 gem 'dotenv-rails', :groups => [:development, :test, :production]
+gem 'json', '1.8.6'
 
 # Gems used only for assets and not required
 # in production environments by default.
